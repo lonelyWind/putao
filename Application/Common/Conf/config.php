@@ -16,6 +16,8 @@ return array(
 	'TMPL_PARSE_STRING' => array(
 		'__CSS__'=>__ROOT__.'/Public/Css',
 		'__JS__'=>__ROOT__.'/Public/Js',
+		'__IMG__'=>__ROOT__.'/Public/Images',
+		'__UPLOAD__'=>__ROOT__.'/Upload',
 	),//添加自己的模板变量规则
 	'MODULE_ALLOW_LIST' => array('Home','Admin','User'),	// 允许访问的模块列表
 	'DEFAULT_MODULE'  => 'Home',	// 默认模块
